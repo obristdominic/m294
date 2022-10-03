@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>alert("Hello World")</script>
+    <script src="index.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () =>{
+
+        const button = document.getElementById('click')
+        button.addEventListener('click', () => {alert('Hello World')
+        })});
+    </script>
+    <script>function handleClick(){alert("Hello World")}</script>
+    <link rel="script" href="index.js">
+</head>
+<body>
+    <button id="click" onclick="handleClick()">Click Me</button>
+</body>
+</html>
