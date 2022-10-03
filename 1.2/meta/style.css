@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(92, 184, 92);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    size: bold 20px;
+}
+h2{
+    size: bold 20px;
+}
+.hits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    size: 15%;
+    list-style: none;
+}
+.hits img{
+    width: 100%;
+    height: auto;
+}
